@@ -1,0 +1,67 @@
+body {
+        margin: 0px;
+}
+
+#header {
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        background-image: url(../images/header.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        color: white;
+        font-size: 170%;
+        font-weight: 500;
+}
+
+.profile {
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        width: 100%;
+}
+
+#pfp {
+        background-image: url("../images/vrk.png");
+        background-size: cover;
+        background-position: center;
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+}
+
+#name {
+        margin-top: 110px;
+        font-weight: 450;
+        font-size: 13px;
+        text-align: center;
+}
+
+.content {
+        font-size: 100%;
+}
+
+#hding {
+        display: flex;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 50px;
+}
+
+#txt {
+        display: flex;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 25px;
+}
+
+#img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        width: 60%;
+}

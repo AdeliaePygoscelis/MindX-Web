@@ -1,0 +1,27 @@
+body {
+        background-color: rgb(20, 23, 25);
+        color: white;
+        margin: auto;
+        display: flex;
+}
+
+#button {
+        position: fixed;
+        height: 50px;
+        width: 100%;
+        background-color: transparent;
+        transition: all 0.3s ;
+        text-align: center;
+        font-size: 35px;
+}
+
+#button:hover {
+        transition: all 0.3s;
+        background-color:  rgb(86, 89, 91);
+}
+
+#text {
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+}
